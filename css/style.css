@@ -65,7 +65,7 @@ nav{
     display: none;
 }
 @media only screen and (max-width: 1080px){
-    label{
+    .main-head label{
         display: block;
         cursor: pointer;
         width: 26px;
@@ -312,7 +312,7 @@ nav a:hover{
     to{transform:translateY(20px);}
 }
 .storysection{
-    background-color: #fbfbfb;
+    background-color: #144499;
     width: 100%;
     height: auto;
     display: block;
@@ -365,7 +365,7 @@ nav a:hover{
     padding: 40px;
     box-sizing: 40px;
     background: #fff;
-    border-radius: 5px;
+    border-radius: 25px;
     margin-left: 130px;
     box-shadow: 0 0 10px rgba(0,0,0,.2)
 }
