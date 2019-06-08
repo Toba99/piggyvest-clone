@@ -55,7 +55,7 @@ header::after{
 nav{
     text-align: right;
 }
-label{
+.main-head label{
     margin: 0 40px 0 0;
     font-size: 26px;
     line-height: 70px;
