@@ -125,15 +125,34 @@ nav a:hover{
 @media only screen and (max-width: 1080px){
     .row{
         background-image: none;
+        padding-bottom: 0;
+    }
+    .head-title{
+        text-align: center;
+    }
+    .ash-color{
+        text-align: center;
+    }
+    .btn{
+        margin-left: 55px;
+    }
+    .header-button{
+        margin-left: 46px;
     }
 }
+@media only screen and  (max-width: 768px){
+.container {
+    width: 90%;
+    font-size: 12px;
+}}
 .head-title{
-    font-size: 50px;
+    font-size: 30px;
     line-height: 58px;
     color: #144499;
 }
 .ash-color{
     color: #444;
+    font-size: 15px;
 }
 .btn{
     padding: 15px 40px!important;
@@ -155,6 +174,20 @@ nav a:hover{
 }
 .contents{
     padding-top: 3%;
+}
+@media only screen and  (max-width: 768px){
+    .imagepart img{
+        width:80px;
+    }
+    .textpart{
+        float: left;
+    }
+    .textpart .textheader{
+        font-size: 19px;
+    }
+    .textpart .textinfo{
+        font-size: 10px;
+    }
 }
 .grayback{
     background: #fbfbfb;
@@ -186,6 +219,11 @@ nav a:hover{
 .textinfo{
     font-size: 17px;
     color: #444;
+}
+@media only screen and  (max-width: 768px){
+    .savingsfeature img{
+        width: 100%;
+    }
 }
 .smart{
     width: 100%;
