@@ -1,11 +1,20 @@
 .main-head{
     box-shadow: 0 3px 8px rgba(0,0,0,.1);
+    
 }
-.header{
-    margin-top: 100px;
+body{
+    width: 100%
 }
-.header .container{
-    padding: 40px 0; 
+.progresscontainer{
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+.line{
+    margin-top: 70px;
+    /* margin-bottom: 70px; */
 }
 .intro-text h1{
     font-size: 40px;
@@ -68,38 +77,85 @@
         color: #fff;
        background: #13408f!important;
 }
-.last-part{
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 20px;
+._margin-b-20 {
     margin-bottom: 20px;
-    color: #627081;
 }
-.last-part-stuff{
-    margin-top:20px;
+
+._margin-20 {
+    margin-top: 20px;
+}
+._middle {
+    margin: 0 auto;
+}
+.mainactionbutton {
+    max-width: 400px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 1999;
+    box-shadow: 0 2px 4px rgba(33,33,33,.45);
+    -webkit-box-shadow: 0 2px 4px rgba(33,33,33,.26);
+    -moz-box-shadow: 0 2px 4px rgba(33,33,33,.2);
+    -o-box-shadow: 0 2px 4px rgba(33,33,33,.2);
+    -ms-box-shadow: 0 2px 4px rgba(33,33,33,.2);
+    border: 1px dashed #05457b;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.jinx{
+    margin-top: 20px;
+}
+.jinx a{
     color: #08c;
     text-decoration: none;
 }
-@media only screen and (max-width: 760px){
-   .btn{
-        margin: 0px;
-    }
+.profileuser h2{
+    text-align: center;
+    color: #144499;
+    font-weight: bold;
 }
-@media only screen and  (max-width: 768px){
-    #info2 {
-       float: left;
-       text-align: center;
-       margin: 50px 10px;
-       }
-   }
-   @media only screen and  (max-width: 768px){
-   .story {
-       width: 100%;
-   }
-   }
-   @media (max-width: 768px){
-   .story .avatar {
-       width: 40px;
-       height: 40px;
-       margin-top: 15px;
-   }}
+
+
+
+
+.content{
+    width: 100%;
+    height: auto;
+}
+.content .container{
+    
+        margin: 0 auto;
+        max-width: 1310px;
+        padding: 40px 0;
+        box-sizing: border-box;
+        width: 90%;
+        text-align: center
+    
+}
+.content h1 {
+    color: #144499;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.firstcapspanh{
+    margin-top: 50px;
+    display: flex;
+}
+.firstcapspanh2{
+    margin-top: 50px;
+    display: flex;
+}
+.box{
+    height: auto;
+    width: 50%;
+    display: block;
+}
+
+.four-links{
+    width: 100%;
+}

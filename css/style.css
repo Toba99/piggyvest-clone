@@ -1,9 +1,16 @@
 body{
     margin: 0;
+    padding: 0;
     background: #ffffff;
     font-weight: 300;
     font-family: 'Oxygen', sans-serif;
+    font-family: poppins,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    overflow-x: hidden;
+    width: 100%;
 }
+
 header{
     background: #ffffff;
     width: 100%;
@@ -27,7 +34,7 @@ header{
 .container{
     width:90%;
     margin: 0 auto;
-    max-width: 1310px;
+    max-width: 100%;
     /* padding: 40px 0; */
     box-sizing: border-box;
 }
@@ -56,7 +63,7 @@ nav{
     text-align: right;
 }
 .main-head label{
-    margin: 0 40px 0 0;
+    margin: 0 8px 0 0;
     font-size: 26px;
     line-height: 70px;
     display: none;
@@ -64,7 +71,7 @@ nav{
 #toggle{
     display: none;
 }
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 760px){
     .main-head label{
         display: block;
         cursor: pointer;
@@ -99,6 +106,7 @@ nav a{
     color: #144499;
     text-decoration: none;
     font-size:15px;
+    font-weight: 700;
 }
 nav a:hover{
     color: #30c57b;
@@ -245,6 +253,7 @@ nav a:hover{
     justify-content: space-between;
     display: flex;
     margin-top: 50px;
+    max-width:90%;
 }
 .savingsfeature{
     background-color: #f8faff;
@@ -357,7 +366,7 @@ nav a:hover{
     padding: 40px 0;
 }
 .storysection h1{
-    color: #144499;
+    color: #fff;
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
@@ -365,10 +374,13 @@ nav a:hover{
     line-height: 40px;
     margin-bottom: 10px;
 }
+.tinystorytime{
+    color: #2dc67a;
+}
 .story{
     margin-top: 50px;
     display: block;
-    width: 70%;
+    width: 63%;
 }
 .story .avatar{
     z-index: 10;
@@ -404,7 +416,7 @@ nav a:hover{
     box-sizing: 40px;
     background: #fff;
     border-radius: 25px;
-    margin-left: 130px;
+    margin-left: 50px;
     box-shadow: 0 0 10px rgba(0,0,0,.2)
 }
 .story .name{
@@ -477,7 +489,7 @@ footer {
 .foot{
     width: 100%;
     height: auto;
-    display: block;
+    display: flex;
 }
 footer .container {
     padding: 5px 0 20px;
@@ -508,7 +520,7 @@ footer .icon img {
     width: 30px;
 }
 .info{
-    display: grid;
+    /* display: grid; */
 }
 .up-text{
     margin-top: 10px;
@@ -517,3 +529,21 @@ footer .copy {
     margin-top: 10px;
     font-size: 12px;
 }
+@media only screen and  (max-width: 768px){
+ #info2 {
+    float: left;
+    text-align: center;
+    margin: 50px 10px;
+    }
+}
+@media only screen and  (max-width: 768px){
+.story {
+    /* margin-left: 130px; */
+}
+}
+@media (max-width: 768px){
+.story .avatar {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+}}
