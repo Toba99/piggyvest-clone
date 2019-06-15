@@ -7,6 +7,14 @@
 .main-head{
     box-shadow: 0 3px 8px rgba(0,0,0,.1);
 }
+.img-700{
+    margin: 20px 0;
+}
+@media only screen and (max-width: 768px){
+    .img-700{
+        width: 100%
+    }
+}    
 .intro-text h1{
     font-size: 40px;
     line-height: 48px;
@@ -40,6 +48,20 @@
     justify-content: space-between;
     display: flex;
     margin-top: 50px;
+}
+@media only screen and (max-width: 768px){
+    .principle{
+        flex-direction: column;
+    }
+    .principle-text{
+        width: 100%!important;
+    }
+    .principle img{
+        margin-left: 45px;
+    }
+    .btn-blue{
+        margin-left: 25%!important;
+    }
 }
 .principle-text{
     flex: 0 1 auto;

@@ -64,6 +64,13 @@
     margin-left: 130px;
     box-shadow: 0 0 10px rgba(0,0,0,.2)
 }
+@media (max-width: 768px){
+.story .card {
+    margin-left: 56px;
+    padding: 20px;
+    box-sizing: 20px;
+}
+}
 .story .name {
     
     color: #08c;

@@ -93,7 +93,11 @@ ol, ul {
 .cd-faq-categories .selected {
     background: #42464b!important;
 }}
-
+@media (max-width: 768px){
+    .cd-faq-items{
+        display: none;
+    }
+}
 /* @media only screen and (min-width: 768px){
 .cd-faq-categories a {
     font-size: 14px;
