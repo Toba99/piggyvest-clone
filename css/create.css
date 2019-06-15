@@ -232,7 +232,7 @@ form {
     background: #30c57b;
     border: 1px solid #30c57b;
 }
-.zig .btn:hover {
+.btn:hover {
     color: #fff;
     background: #30c57b!important;
 }
