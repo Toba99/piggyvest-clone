@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/create.css">
-    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
     <title>Document</title>
 </head>
 <body>
@@ -84,7 +85,7 @@
 								<div class="form-group form-grouplast">
 									<input type="hidden" name="autocreatepassword" value="0">
 									<input type="hidden" name="reg" value="1">
-									<button type="submit" class="btn btn-block btn-large btn-success blue wide" id="login">Create a Free Account</button>
+									<button type="submit" class="btn" id="login">Create a Free Account</button>
 								</div> 
 							</form>
 						</div>    
@@ -98,7 +99,7 @@
 		</section>
 	</header>
     
-    <header class="header">
+    <header class="header" id="next-step">
 		<section class="intro-text fornheadertext">
 			<div class="container">
 				<div class="profileuser">
@@ -132,7 +133,7 @@
 								<select class="inputcontrol largetext largetextcenter" name="employmentstatus" required=""><option value="" selected="">-- Select an Option --</option><option value="ST">Student</option><option value="E">Employed</option><option value="U">Unemployed</option><option value="S">Self-Employed / Entreprenuer</option><option value="R">Retired</option></select>								<hr class="thhr"> 
 								<div class="form-group form-grouplast">
 									<input type="hidden" name="moreinfo" value="on">
-									<button type="submit" class="btn btn-block btn-large btn-success blue wide" id="login">Proceed</button>
+									<button type="submit" class="btn" id="login2">Proceed</button>
 								</div> 
 							</form>
 						</div>    
@@ -147,12 +148,12 @@
 		</section>
     </header>
     
-    <header class="header">
+    <header class="header"id="next-step2">
 		<section class="intro-text fornheadertext">
 			<div class="container">
 				<div class="profileuser">
 					<h1 class="_margin-50 _margin-b-20 _middle boldtext">
-						Udale-ameh, set your withdrawal bank account					</h1>
+						Udale-ameh, set your withdrawal bank account</h1>
 					<div align="center" class="onboardingimg">
 						<img src="https://storage.googleapis.com/piggybankservice.appspot.com/statics/withdrawimage_illu.png">
 					</div>
@@ -175,7 +176,7 @@
 								<hr class="thhr"> 
 								<div class="form-group form-grouplast">
 									<input type="hidden" name="bank" value="on">
-									<button type="button" class="btn btn-block btn-large btn-success green wide" id="addbank">Verify Bank</button>
+									<a href="create2.html"><button type="button" class="btn" id="addbank">Verify Bank</button></a>
 								</div> 
 							</form>
 						</div>  
@@ -183,250 +184,8 @@
 			</div>
 		</div>
 	</section>
-    </header>
-     
-    <section class="content">
-		<div class="container _center">
-			<h1>Udale-ameh, pick an option.</h1>
-			<div class="_subtitle">You can manage all aspects of your finances with PiggyVest. Tap one of the options below and let's get started.</div>
-			<div class="four-links">	
-			<div class="firstcapspanh">
-				<div class="box one">
-					<a href="https://www.piggyvest.com/onboarding/activate/save" class="addcardbox">
-						<div class="smtcatholder" style="position: relative;"> 
-							<img src="https://storage.googleapis.com/piggybankservice.appspot.com/statics/save-automatically.jpg">
-							<div class="smtcontentholder">
-								<div class="smtcontenttitle" style="color:#fff">I want to build my savings*</div>
-								<div class="smtcontentdescription" style="color:#fff">**Free quarterly withdrawals</div>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="box two">
-					<a href="https://www.piggyvest.com/onboarding/activate/invest" class="addcardbox">
-						<div class="smtcatholder" style="position: relative;"> 
-							<img src="https://storage.googleapis.com/piggybankservice.appspot.com/statics/investment-onboarding.jpg">
-							<div class="smtcontentholder">
-								<div class="smtcontenttitle" style="color:#fff">I want to invest gradually</div>
-								<div class="smtcontentdescription" style="color:#fff">Invest gradually in real-estate, bonds, agriculture etc.</div>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="firstcapspanh2">
-				<div class="box three">
-					<a href="https://www.piggyvest.com/onboarding/activate/lockfunds" class="addcardbox">
-						<div class="smtcatholder" style="position: relative;"> 
-							<img src="https://storage.googleapis.com/piggybankservice.appspot.com/statics/lockfunds.jpg">
-							<div class="smtcontentholder">
-								<div class="smtcontenttitle" style="color:#fff">I want to lock money for a while*</div>
-								<div class="smtcontentdescription" style="color:#fff">**You can select the duration. Interest paid upfront.</div>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="box four">
-					<a href="https://www.piggyvest.com/onboarding/activate/goals" class="addcardbox">
-						<div class="smtcatholder" style="position: relative;"> 
-							<img src="https://storage.googleapis.com/piggybankservice.appspot.com/statics/SaveAsGroup.jpg">
-							<div class="smtcontentholder">
-								<div class="smtcontenttitle" style="color:#fff">I want to save towards a goal</div>
-								<div class="smtcontentdescription" style="color:#fff">Reach multiple saving goals personally or as a group</div>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<header class="header">
-			<section class="intro-text fornheadertext">
-				<div class="container" style="padding-bottom: 20px;">
-					<div class="profileuser">
-						<!--
-						<h1 class="_margin-50 _margin-b-20 _middle boldtext">
-								
-								Udale-ameh, make your first savings											</h1>
-										-->
-					<div align="center" class="_margin-50 _margin-b-20">
-																	<!--
-								
-						-->
-						<div align="left" class="mainactionbutton">
-							<div class="introbox">
-								<div class="onboard_introbox_image"><img src="https://storage.googleapis.com/piggybankservice.appspot.com/statics/intro_onboard_save.png"></div>
-								<h2 class="onboard_introbox_title">Udale-ameh, build your savings on your terms using our “Piggybank” wallet.</h2>
-								<div class="onboard_introbox_list">
-									<ul>
-										<li> • Save daily, weekly or monthly with Autosave.</li>
-										<li> • Four free withdrawal days to build savings discipline*</li>
-										<li> • Earn 10% per annum on savings.</li>
-									</ul>
-								</div>
-								<div class="onboard_introbox_basetext">*Withdrawals made from your “Piggybank” wallet outside your set withdrawal days attract a 5% breaking fee to promote discipline.</div>
-							</div>
-						</div>
-						<div class="dashholder">
-							<div>
-								<div class="realcard">
-									<span>New Balance</span>
-									<div class="newbalancehtml">₦0</div>
-									</div>
-								</div>
-							</div>
-							<div align="left" class="mainactionbutton zig ">
-							<form action="" method="post">
-							<label class="form-label leftlabel"><b>Enter any amount</b></label>
-							<input type="number" class="inputcontrol largetext largetextcenter" name="amount" id="amount38343a9dbf6e" value="" autocomplete="off" required="" placeholder="e.g 1000">
-								<br>
-							<div class="dynamichtml"></div>
-								<br>
-							<div class="dynamichtml"></div>
-							<div class="form-group form-grouplast">
-							<div style="text-align:center; font-size:10px;line-height: 15px;padding-bottom: 10px;">All funds go to your “Piggybank” wallet on PiggyVest</div>
-							<input type="hidden" name="activate" value="1">
-							<button type="button" class="btn">Make Your First Savings</button>
-							</div>
-							</form>
-						</div>    			
-						<div class="tinytext">
-							PiggyVest uses the highest levels of Internet Security, and it is secured by 256 bits SSL security encryption to ensure that your information is completely protected.						<br>
-							<img src="images/banks.png" title="Cards accepted" style="max-width: 180px;width: 90%;">
-						</div>
-						<div class="back-skip">
-							<a href="https://www.piggyvest.com/onboarding/options">« Back</a> &nbsp; | &nbsp; 
-							<a href="https://www.piggyvest.com/dashboard/">Skip »</a>
-						</div>
-						<br>
-						<br>
-						<br>
-					</div>
-				</div>
-			</div>
-		</section>
 	</header>
-
-	<div align="center" class="_margin-50 _margin-b-20">
-
-		<div align="left" class="mainactionbutton">
-			<div class="introbox">
-			<div class="onboard_introbox_image"><img src="https://storage.googleapis.com/piggybankservice.appspot.com/statics/intro_onboard_invest.png"></div>
-			<h2>Udale-ameh, invest on the go with our “Investify” feature</h2>
-			<div class="onboard_introbox_list">
-			<ul>
-				<li> • Start investing with as little as ₦3,000.</li>
-				<li> • Invest confidently - all investments are pre-vetted.</li>
-				<li> • Invest in agriculture, real estate, fixed income assets, etc.</li>
-			</ul>
-		</div>
-		</div>
-		</div>
-		<div align="left" class="mainactionbutton zig">
-		<form action="" method="post">
-				<input type="hidden" name="amount" id="amount49a6544e2786" value="100">
-		<div class="dynamichtml"></div>
-			<div class="dynamichtml"></div>
-		<div class="form-group form-grouplast">
-		<div style="text-align:center; font-size:10px;line-height: 15px;padding-bottom: 10px;">To get started, we will attempt to charge your debit card with ₦100 only to verify it is valid. We will refund your bank account immediately.</div>
-		<input type="hidden" name="activate" value="1">
-		<button type="button" class="btn btn-block btn-large btn-success green wide firstdeposit49a6544e2786">Verify My Card</button>
-		</div>
-		</form>
-		</div>    			
-		<div class="tinytext">
-		PiggyVest uses the highest levels of Internet Security, and it is secured by 256 bits SSL security encryption to ensure that your information is completely protected.						<br>
-		<img src="images/banks.png" title="Cards accepted" style="max-width: 180px;width: 90%;">
-		</div>
-		<div class="back-skip">
-		<a href="https://www.piggyvest.com/onboarding/options" class="">« Back</a> &nbsp; | &nbsp; 
-		<a href="https://www.piggyvest.com/dashboard/" class="">Skip »</a>
-		</div>
-		<br>
-		<br>
-		<br>
-	</div>
-
-	<div align="center" class="_margin-50 _margin-b-20">
-		<div align="left" class="mainactionbutton">
-			<div class="introbox">
-				<div class="onboard_introbox_image"><img src="https://storage.googleapis.com/piggybankservice.appspot.com/statics/intro_onboard_lock.png"></div>
-				<h2 class="onboard_introbox_title">Udale-ameh, lock funds away for a fixed period using our “Safelock” feature.</h2>
-					<div class="onboard_introbox_list">
-						<ul>
-							<li> • Works like a fixed deposit.</li>
-							<li> • Set the desired duration to lock funds</li>
-							<li> • Access funds on maturity.</li>
-							<li> • Earn up to 13% interest p.a, paid upfront.</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		<div align="left" class="mainactionbutton zig">
-			<form action="" method="post">
-				<input type="hidden" name="amount" id="amount84453223af65" value="100">
-				<div class="dynamichtml"></div>
-				<div class="dynamichtml"></div>
-				<div class="form-group form-grouplast">
-				<div style="text-align:center; font-size:10px;line-height: 15px;padding-bottom: 10px;">To get started, we will attempt to charge your debit card with ₦100 only to verify it is valid. We will refund your bank account immediately.</div>
-				<input type="hidden" name="activate" value="1">
-				<button type="button" class="btn">Get Started</button>
-				</div>
-			</form>
-		</div>    			
-		<div class="tinytext">
-			PiggyVest uses the highest levels of Internet Security, and it is secured by 256 bits SSL security encryption to ensure that your information is completely protected.						<br>
-			<img src="https://www.piggybank.ng/images/allbankscardspiggybankNG-min.png" title="Cards accepted" style="max-width: 180px;width: 90%;">
-		</div>
-		<div class="back-skip">
-			<a href="https://www.piggyvest.com/onboarding/options">« Back</a> &nbsp; | &nbsp; 
-			<a href="https://www.piggyvest.com/dashboard/">Skip »</a>
-		</div>
-		<br>
-		<br>
-		<br>
-	</div>
-
-	<div align="center" class="_margin-50 _margin-b-20">
-		<div align="left" class="mainactionbutton">
-			<div class="introbox">
-				<div class="onboard_introbox_image"><img src="https://storage.googleapis.com/piggybankservice.appspot.com/statics/intro_onboard_target.png"></div>
-				<h2 class="onboard_introbox_title">Udale-ameh, reach your goals with our “Target Savings” feature</h2>
-				<div class="onboard_introbox_list">
-					<ul>
-						<li> • Save towards a goal by yourself or with a group.</li>
-						<li> • Earn 10% per annum, paid daily into your Flex account.</li>
-						<li> • Minimum duration as short as 30 days.</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div align="left" class="mainactionbutton zig">
-			<form action="" method="post">
-				<input type="hidden" name="amount" id="amount4aa97a0304b4" value="100">
-				<div class="dynamichtml"></div>
-				<div class="dynamichtml"></div>
-				<div class="form-group form-grouplast">
-					<div style="text-align:center; font-size:10px;line-height: 15px;padding-bottom: 10px;">To get started, we will attempt to charge your debit card with ₦100 only to verify it is valid. We will refund your bank account immediately.</div>
-					<input type="hidden" name="activate" value="1">
-					<button type="button" class="btn btn-block btn-large btn-success green wide firstdeposit4aa97a0304b4">Get Started</button>
-				</div>
-			</form>
-		</div>    			
-		<div class="tinytext">
-			PiggyVest uses the highest levels of Internet Security, and it is secured by 256 bits SSL security encryption to ensure that your information is completely protected.						<br>
-			<img src="https://www.piggybank.ng/images/allbankscardspiggybankNG-min.png" title="Cards accepted" style="max-width: 180px;width: 90%;">
-		</div>
-		<div class="back-skip">
-			<a href="https://www.piggyvest.com/onboarding/options">« Back</a> &nbsp; | &nbsp; 
-			<a href="https://www.piggyvest.com/dashboard/">Skip »</a>
-		</div>
-			<br>
-			<br>
-			<br>
-	</div>
-
+	
 	<footer class="foot">
 		<div class="container">
 			<ul class="foot-links">
@@ -492,5 +251,6 @@
 
 		</div>
 	</footer>
+	<script type= "text/javascript" src="js/create.js"></script>
 </body>
 </html>

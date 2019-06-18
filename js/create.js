@@ -1,0 +1,16 @@
+$(document).ready(function(){
+    $("#login").click(function(){
+      $(".header").hide();
+    });
+    $("#login").click(function(){
+      $("#next-step").show();
+    });
+  });
+$(document).ready(function(){
+    $("#login2").click(function(){
+    $("#next-step").hide();
+    });
+    $("#login2").click(function(){
+    $("#next-step2").show();
+    });
+});

@@ -5,6 +5,12 @@
 body{
     width: 100%
 }
+#next-step{
+    display: none;
+}
+#next-step2{
+    display: none;
+}
 .progresscontainer{
     margin: 0 auto;
     max-width: 800px;
@@ -82,8 +88,8 @@ body{
     margin-bottom: 0;
 }
 .btn:hover{
-        color: #fff;
-       background: #13408f!important;
+    color: #fff;
+    background: #fff!important;
 }
 ._margin-b-20 {
     margin-bottom: 20px;
@@ -241,8 +247,8 @@ form {
     border: 1px solid #30c57b;
 }
 .btn:hover {
-    color: #fff;
-    background: #30c57b!important;
+    color: #144499;
+    background: #fff!important;
 }
 .tinytext {
     font-size: 11px;
